@@ -22,7 +22,7 @@ export class CustomWebSocket {
 
     public static sendMessage(message: string){
         if(this.instance === null || this.instance === undefined) return;
-        if(this.instance.webSocket == null || this.instance.webSocket == undefined) return;
+        if(this.instance.webSocket === null || this.instance.webSocket === undefined) return;
 
         this.instance.webSocket.send(message);
     }
