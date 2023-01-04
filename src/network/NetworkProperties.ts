@@ -1,0 +1,1 @@
+export const webSocketURl: string = "ws://34.203.217.169:4000";
