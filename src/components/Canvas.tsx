@@ -4,7 +4,7 @@ import React from "react";
 
 import "../styles/Canvas.css";
 import { CustomWebSocket } from "../network/WebSocket";
-import { EMessageCode, EMoveDirection, IMessage, IMessageFromServerToClientPositionSync, IMessageFromServerToClientUserRemoval, IMessageFromServerToClientUserSpawn, IMessageToServer, ITransform, IUserData, IUserSyncData } from "../interfaces/NetworkInterfaces";
+import { EMessageCode, EMoveDirection, IMessage, IMessageFromServerToClientPositionSync, IMessageFromServerToClientUserRemoval, IMessageFromServerToClientUserSpawn, IMessageToServer, IUserData, IUserSyncData } from "../interfaces/NetworkInterfaces";
 import { User } from "../utils/User";
 
 export class Canvas extends React.Component {
